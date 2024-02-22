@@ -129,7 +129,7 @@ nav {
 }
 
 .desktop-menu ul li:last-child a {
-    color: var(--custom-color);
+    color: rgb(252, 126, 126);
     font-size: var(--sm);
 }
 
@@ -183,7 +183,7 @@ nav {
 
 .sign-out {
     font-size: var(--sm);
-    color: var(--custom-color) !important;
+    color: rgb(252, 126, 126) !important;
 }
 
 /* Aside (shopping cart y product detail) */
@@ -477,7 +477,9 @@ aside {
         .desktop-menu {
             display: none;
         }
-        
+        .mobile-menu {
+            width: 40%;
+        }
         .cards-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, 190px);
