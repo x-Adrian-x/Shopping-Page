@@ -96,17 +96,37 @@ const productList = [];
 productList.push({
     name: 'Laptop',
     price: 600,
-    image: '/assets/img/Laptop.jpg'
+    image: '/assets/img/laptop.jpg'
 });
 productList.push({
     name: 'TV',
-    price: 350,
-    image: '/assets/img/TV.jpg'
+    price: 430,
+    image: '/assets/img/tv.jpg'
 });
 productList.push({
     name: 'Bike',
     price: 120,
-    image: '/assets/img/Bike.jpg'
+    image: '/assets/img/bike.jpg'
+});
+productList.push({
+    name: 'Jacket',
+    price: 70,
+    image: '/assets/img/jacket.jpg'
+});
+productList.push({
+    name: 'Dining Room',
+    price: 520,
+    image: '/assets/img/dining-room.jpg'
+});
+productList.push({
+    name: 'Umbrella',
+    price: 25,
+    image: '/assets/img/umbrella.jpg'
+});
+productList.push({
+    name: 'Lego Star Wars',
+    price: 90,
+    image: '/assets/img/lego-star-wars.jpg'
 });
 
 
